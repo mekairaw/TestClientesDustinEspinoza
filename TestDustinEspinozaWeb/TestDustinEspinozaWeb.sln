@@ -4,8 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDustinEspinozaWeb", "TestDustinEspinozaWeb.csproj", "{0C82E77B-B33D-4138-BEA2-2A144C50D063}"
+	ProjectSection(ProjectDependencies) = postProject
+		{326D118E-A7AB-484E-AA64-A9DA3F5765B9} = {326D118E-A7AB-484E-AA64-A9DA3F5765B9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "..\Entidades\Entidades.csproj", "{326D118E-A7AB-484E-AA64-A9DA3F5765B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "..\AccesoDatos\AccesoDatos.csproj", "{D479D45E-A321-4CCD-B678-4DB07E977F6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{326D118E-A7AB-484E-AA64-A9DA3F5765B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{326D118E-A7AB-484E-AA64-A9DA3F5765B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{326D118E-A7AB-484E-AA64-A9DA3F5765B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D479D45E-A321-4CCD-B678-4DB07E977F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D479D45E-A321-4CCD-B678-4DB07E977F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D479D45E-A321-4CCD-B678-4DB07E977F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D479D45E-A321-4CCD-B678-4DB07E977F6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

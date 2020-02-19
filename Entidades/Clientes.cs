@@ -2,7 +2,8 @@
 
 namespace Entidades
 {
-    public class clientes
+    [Serializable]
+    public class Clientes
     {
         public int ID { get; set; }
         public string NOMBRE_COMPLETO { get; set; }
